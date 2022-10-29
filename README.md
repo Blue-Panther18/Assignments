@@ -1,6 +1,6 @@
 # Week3 Branch
 
-This is branch contain all week3's tasks folder.
+This branch contains all week3's tasks folder.
 
 
  
