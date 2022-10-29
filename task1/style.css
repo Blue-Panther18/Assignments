@@ -1,0 +1,287 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif; 
+    
+  }
+  
+  
+  /* header and nav style */
+  
+  .navbar-container ul li, .navbar-container ul li a {
+    list-style: none;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    
+  }
+  
+  .navbar-container ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 16px auto;
+    
+  }
+  
+  .navbar-container ul li {
+    padding: 0 6px;
+    
+  }
+  .navbar-container ul li a {
+    color: blue;
+    
+  }
+  
+  .navbar-container ul li a:hover {
+    border-bottom: 2px solid #000;
+    
+  }
+  
+  /* Main Section Style */
+  
+  /* About me Style */
+  
+  #about-me h1 {
+    text-align: center;
+    font-size: 32px;
+    margin: 25px auto;
+  }
+  
+  .intro {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 48px;
+  
+  }
+  
+  .intro img {
+    width: 200px;
+    height: 100%;
+    border-radius: 50%;
+  
+  }
+  
+  .intro div {
+  
+    align-self: center;
+    line-height: 20px;
+  }
+  
+  .intro div h2 {
+    margin-bottom: 16px;
+  }
+  
+  .intro div h2 span {
+    color: blue;
+    font-size: 28px;
+  }
+  
+  .intro div p {
+    width: 80%;
+    font-size: 16px;
+  }
+  
+  .more-aboutme {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    line-height: 24px;
+    margin-bottom: 48px;
+    
+    
+  }
+  
+  .hobbies  {
+    width: 300px;
+    height: 200px;
+    background: #f0f3f4;
+    padding-left: 40px;
+    border-radius: 24px;
+  }
+  
+  .hobbies h2, .skills h2 {
+    text-align: center;
+    margin: 16px auto;
+  }
+  
+  .skills {
+    width: 300px;
+    height: 200px;
+    background: #f0f3f4;
+    padding-left: 40px;
+    border-radius: 24px;
+    
+  }
+  
+  
+  /* Projects Styles */
+  
+  #project h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 32px;
+  }
+  
+  .project-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-bottom: 48px;
+  }
+  
+  .cal {
+    width: 250px;
+    text-align: center;
+    justify-self: center;
+    grid-column: 2/3;
+    background: #f0f3f4;
+    padding: 32px;
+    border-radius: 20px;
+    
+  }
+  
+  h2 {
+    
+  }
+  
+  .count {
+    width: 250px;
+    text-align: center;
+    justify-self: center;
+    grid-column: 4/5;
+    background: #f0f3f4;
+    padding: 32px;
+    border-radius: 20px;
+  }
+  
+  .cal h2, .cal a img, .count h2, .count a img {
+    margin-bottom: 24px;
+  }
+  
+  
+  /*  Services Styles  */
+  
+  #services {
+    margin-bottom: 72px;
+  }
+  
+  #services h1 {
+    text-align: center;
+    font-size: 32px;
+    margin: 25px auto;
+  }
+  
+  .service {
+    width: 50%;
+    margin: 0 auto;
+    background: #f0f3f4;
+    padding: 32px;
+    line-height: 24px;
+  }
+  
+  .service h2 {
+    margin-bottom: 16px;
+  }
+  
+  .footer-container {
+      background: #f0f3f4;
+      padding: 16px 0;
+  }
+  
+    .footer-container span {
+      color: blue;
+      font-size: 20px;
+      font-weight: 500;
+    }
+  
+  .footer-container .icon {
+    color: #171616;
+  }
+  
+  .footer-container div {
+    margin-left: 24px;
+  }
+  
+  .footer-container p {
+    text-align: center;
+  }
+  
+  /* ContactUs style */
+  
+  .contact-us {
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content-container {
+    width: 50%;
+    height: 70%;
+    background: #f0f3f4;
+    padding: 24px;
+    border-radius: 20px;
+    
+  }
+  
+  .content-container h1  {
+    text-align: center;
+    font-size: 32px;
+    color: blue;
+    margin-bottom: 16px;
+  }
+  
+  .content-container p{
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  
+  .content-container form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    
+  }
+  
+  .content-container form input {
+    width: 65%;
+    height: 32px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    
+  }
+  
+  .content-container form textarea {
+    width: 65%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+  }
+  
+  
+  .content-container form button {
+    width: 40%;
+    height: 48px;
+    background: blue;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 48px;
+    
+  }

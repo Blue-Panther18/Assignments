@@ -1,0 +1,226 @@
+/* Defualt Styles */
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Content Styles */
+  
+  .reg {
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .reg div {
+    width: 70%;
+    height: 80%;
+    background: #f0f3f4;
+    border-radius: 20px;
+    padding: 24px;
+  }
+  
+  .reg div form {
+    display: grid;
+    width: 100%;
+    height: 80%;
+    grid-template-columns: 1fr .5fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    
+  }
+  
+  .reg div h1 {
+    text-align: center;
+    font-size: 40px;
+    color: blue;
+  }
+  
+  .reg div form label {
+    grid-column: 2/3;
+    font-size: 16px;
+  }
+  
+  .reg div form input {
+    grid-column: 3/4;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #000;
+    background: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    
+  }
+  
+  .btn {
+    grid-column: 2/4;
+    justify-self: center;
+    align-self: center;
+    width: 250px;
+    height: 48px;
+    background: blue;
+    border: none;
+    border-radius: 20px;
+  }
+  
+  .btn a {
+    width: 250px;
+    height: 48px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+  }
+  
+  .reg div form p {
+    text-align: center;
+  }
+  
+  .gender {
+    height: 40px;
+    font-size: 16px;
+  }
+  
+  
+  /* Success page Style */
+  
+  .success-page , .login {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .success-content-container {
+    width: 50%;
+    height: 60%;
+    margin: 0 auto;
+    background: #f0f3f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px;
+    border-radius: 20px;
+    
+  }
+  
+  .success-content-container h1 {
+  
+    font-size: 40px;
+    margin-bottom: 24px;
+  }
+  
+  .success-content-container .icon {
+    color: green;
+    margin-bottom: 24px;
+  }
+  
+  .success-content-container p {
+    font-size: 20px;
+    margin-bottom: 48px;
+  }
+  
+  .success-content-container button {
+    width: 35%;
+    height: 44px;
+    background: green;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  /* Login Style */
+  
+  .login-content{
+    width: 40%;
+    height: 60%;
+    margin: 0 auto;
+    background: #f0f3f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px;
+    border-radius: 20px;
+  }
+  
+  .login-content h1 {
+    font-size: 40px;
+    color: blue;
+  }
+  
+  .login-content form {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr .5fr 1.5fr 1fr;
+    row-gap: 48px;
+    margin-top: 48px;
+    margin-bottom: 16px;
+  }
+  
+  .login-content form label {
+    grid-column: 2/3;
+    font-size: 20px;
+    text-align: center
+  
+  }
+  
+  .login-content form input {
+    grid-column: 3/4;
+    width: 450px;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #000;
+    font-size: 20px;
+    outline: none;
+    margin-left: 10px;
+    
+  }
+  
+    .login-content .forgot {
+      align-self: flex-end;
+      text-decoration: none;
+      color: #353582;
+      margin-bottom: 32px;
+      
+      
+    }
+  .login-content .forgot:hover {
+    color: red;
+  }
+  
+  .signup-btn {
+    width: 250px;
+    height: 44px;
+    font-size: 24px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    background: blue;
+    margin-bottom: 32px;
+    cursor: pointer;
+    
+  }
+  
+  .signup-btn:hover {
+    background: #0808d9;
+  }
+  
+  .login-content p {
+    font-size: 16px;
+  }
