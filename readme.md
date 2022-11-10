@@ -1,6 +1,6 @@
-# Week5 Branch
+# Week6 and week7 Branch
 
-This branch contains all week5's task folder.
+This branch contains all week6 & 7's task folder.
 
 
  
